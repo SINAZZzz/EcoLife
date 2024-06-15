@@ -3,3 +3,39 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    padding: 0px 5%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 45%;
+    color: #D2B48C;
+    font-weight: 700;
+    font-size: x-large;
+}
+.menu-item-first{
+    color: #2BAE7A;
+}
+.logo img{
+    width: 80%;
+}
+.iconsNav{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.Shopping{
+    width: 40%;
+    margin-right: 10px;
+}
+.Frame{
+    width: 35%;
+}
