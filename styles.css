@@ -51,3 +51,15 @@ body{
 .imgWelcome{
     width: 48%;
 }
+.title{
+    display: flex;
+    align-items: end;
+    color: #2BAE7A;
+    font-weight: bold;
+    font-size: larger;
+}
+.title img{
+    width: 7%;
+    margin-bottom: 2rem;
+    margin-left: -1rem;
+}
