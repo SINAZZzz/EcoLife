@@ -57,27 +57,28 @@ body{
     align-items: end;
     color: #2BAE7A;
     font-weight: bolder;
-    font-size: x-large;
+    font-size: 2rem;
 }
 .title img{
     width: 7%;
-    margin-bottom: 2.5rem;
-    margin-left: -1rem;
+    margin-bottom: 3rem;
+    margin-left: -0.5rem;
 }
 .textWelcome{
     margin: 2rem 0px;
 }
 .textWelcome p{
     color: #2BAE7A;
-    font-size: x-large;
+    font-size:2.5rem;
+    font-weight: 400;
 }
 .textWelcome h2{
     color: #D2B48C;
-    font-size: xx-large;
+    font-size: 3rem;
     margin: 0.3rem 0px;
 }
 .description p{
-    font-size: large;
+    font-size: larger;
     color: #2BAE7A;
 }
 .button button{
