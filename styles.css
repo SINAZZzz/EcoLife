@@ -47,6 +47,7 @@ body{
     display: flex;
     flex-direction: column;
     width: 52%;
+    justify-content: center;
 }
 .imgWelcome{
     width: 48%;
@@ -55,11 +56,40 @@ body{
     display: flex;
     align-items: end;
     color: #2BAE7A;
-    font-weight: bold;
-    font-size: larger;
+    font-weight: bolder;
+    font-size: x-large;
 }
 .title img{
     width: 7%;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
     margin-left: -1rem;
+}
+.textWelcome{
+    margin: 2rem 0px;
+}
+.textWelcome p{
+    color: #2BAE7A;
+    font-size: x-large;
+}
+.textWelcome h2{
+    color: #D2B48C;
+    font-size: xx-large;
+    margin: 0.3rem 0px;
+}
+.description p{
+    font-size: large;
+    color: #2BAE7A;
+}
+.button button{
+    color: white;
+    font-size: medium;
+    background-color: #2BAE7A;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 60px;
+    font-weight: bold;
+}
+.button img{
+    width: 10%;
+    margin-left: 2rem;
 }
