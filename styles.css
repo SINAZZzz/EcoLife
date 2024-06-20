@@ -145,3 +145,38 @@ body{
     color: #8F9779;
     padding: 0px 65px;
 }
+.countainerFeatured{
+    position: relative;
+}
+.FeaturedProducts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+.FeaturedProducts h1{
+    margin-bottom: 5rem;
+    font-size: 3rem;
+    color: #2BAE7A;
+    margin-top: -105%;
+}
+.backImageFeatured{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    z-index: 0;
+}
+.leafRight {
+    object-fit: contain;
+    max-width: 100%;
+    height: auto;
+    margin-right: -6%;
+}
+.leafLeft {
+    object-fit: contain;
+    max-width: 100%;
+    height: auto;
+    margin-left: -6%;
+    margin-top: 9%;
+}
