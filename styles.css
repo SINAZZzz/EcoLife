@@ -254,4 +254,30 @@ body{
     border: none;
     box-shadow: 0px 4px #A6C1D1;
 }
-
+.backImageCustomer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px -6%;
+    z-index: 2;
+    position: relative;
+}
+.Think{
+    margin-top: -13%;
+}
+.customerTestimonials h1{
+    color: #2BAE7A;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    margin-top: -25%;
+}
+.cardCustomer{
+    border: 1px #2BAE7A solid;
+}
+.cardCustomer h2{
+    color: #2BAE7A;
+}
+.cardCustomer p{
+    color: #8F9779;
+}
