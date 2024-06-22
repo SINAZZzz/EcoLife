@@ -231,7 +231,6 @@ body{
     position: relative;
     margin: 3rem 0px;
 }
-
 .explore hr {
     position: absolute;
     width: calc(100% + 12%);
@@ -240,14 +239,12 @@ body{
     margin: 0 -6%; 
     border-color: #A6C1D1;
 }
-
 .buttonExplore {
     position: relative;
     display: flex;
     justify-content: center;
     z-index: 1;
 }
-
 .buttonExplore button {
     background-color: #6C8B76;
     padding: 10px 30px;
