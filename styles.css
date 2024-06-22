@@ -227,3 +227,34 @@ body{
     box-shadow: #333333 0px 4px;
     margin-top: 10px;
 }
+.explore {
+    position: relative;
+    margin: 3rem 0px;
+}
+
+.explore hr {
+    position: absolute;
+    width: calc(100% + 12%);
+    top: 50%; 
+    transform: translateY(-50%); 
+    margin: 0 -6%; 
+    border-color: #A6C1D1;
+}
+
+.buttonExplore {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+.buttonExplore button {
+    background-color: #6C8B76;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0px 4px #A6C1D1;
+}
+
