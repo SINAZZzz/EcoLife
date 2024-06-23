@@ -272,12 +272,37 @@ body{
     justify-content: center;
     margin-top: -25%;
 }
+.cardsCustomer{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
 .cardCustomer{
-    border: 1px #2BAE7A solid;
+    border: 2px #2BAE7A solid;
+    border-radius: 15px;
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding: 0rem 20px; */
+    width: 100%;
 }
 .cardCustomer h2{
     color: #2BAE7A;
+    margin: 1rem 0px;
 }
 .cardCustomer p{
+    text-align: center;
     color: #8F9779;
+}
+.star{
+    /* margin-top: 5rem; */
+}
+.middleCard{
+    margin: 0px 1.5rem;
+}
+.cardCustomer .star{
+    display: flex;
+    justify-content: end;
+    align-items: end;
 }
