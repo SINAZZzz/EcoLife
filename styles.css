@@ -267,41 +267,45 @@ body{
 }
 .customerTestimonials h1{
     color: #2BAE7A;
-    font-size: 2.5rem;
+    font-size: 3rem;
     display: flex;
     justify-content: center;
     margin-top: -25%;
 }
-.cardsCustomer{
-    display: flex;
-    justify-content: space-between;
-    margin: 10px 0px;
+.cardsCustomer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 3rem 0px;
 }
-.cardCustomer{
+.cardCustomer {
     border: 2px #2BAE7A solid;
     border-radius: 15px;
-    display: flex ;
+    display: flex;
     flex-direction: column;
+    justify-content: space-between; 
     align-items: center;
-    justify-content: center;
-    /* padding: 0rem 20px; */
-    width: 100%;
+    padding: 1rem 20px;
+    width: 100%; 
+    box-sizing: border-box;
+    height: 100%;
 }
-.cardCustomer h2{
+.cardCustomer h2 {
     color: #2BAE7A;
-    margin: 1rem 0px;
+    margin: 0.5rem 0;
 }
-.cardCustomer p{
+.cardCustomer p {
     text-align: center;
     color: #8F9779;
+    margin: 4rem 0;
+    line-height: 1.5;
+    font-size: large;
 }
-.star{
-    /* margin-top: 5rem; */
+.star {
+    align-self: center; /* چسباندن star به پایین */
+    margin-bottom: 10px; /* فاصله کوچک از پایین */
 }
-.middleCard{
-    margin: 0px 1.5rem;
-}
-.cardCustomer .star{
+.cardCustomer .star {
     display: flex;
     justify-content: end;
     align-items: end;
