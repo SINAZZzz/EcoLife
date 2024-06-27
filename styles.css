@@ -310,3 +310,25 @@ body{
     justify-content: end;
     align-items: end;
 }
+.sectionBlog{
+    background-color: #D6F7E7;
+    margin: 0rem -6%;
+    padding: 0 5%;
+}
+.sectionBlog h1{
+    color: #2BAE7A;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.backImageBlog{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+    text-align: center;
+}
+.backImageBlog img{
+    height: 100%;
+}
+.imageOne{
+    margin-top: -1rem;
+}
