@@ -313,7 +313,7 @@ body{
 .sectionBlog{
     background-color: #D6F7E7;
     margin: 0rem -6%;
-    padding: 0 5%;
+    padding: 0px 5%;
 }
 .sectionBlog h1{
     color: #2BAE7A;
@@ -324,6 +324,7 @@ body{
     display: flex;
     justify-content: space-between;
     padding-top: 3rem;
+    margin: 0 -2rem;
     text-align: center;
 }
 .backImageBlog img{
@@ -331,4 +332,42 @@ body{
 }
 .imageOne{
     margin-top: -1rem;
+}
+.blogCards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding-top: 1rem;
+}
+.blogCard{
+    background-color: #ffffff;
+    border: 3px solid #2BAE7A;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 2rem 30px 3rem 30px;
+}
+.blogCard h3{
+    padding: 2rem 0 4rem 0;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #2BAE7A;
+    font-weight: bolder;
+}
+.blogCard p{
+    text-align: center;
+    font-size: large;
+    color: #8F9779;
+    padding: 0 0 4rem 0;
+}
+.backImageBlogBottom{
+    display: flex;
+    justify-content: end;
+}
+.backImageBlogBottom img{
+    margin-top: 1rem;
+    margin-bottom: -3rem;
 }
