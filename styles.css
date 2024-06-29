@@ -302,8 +302,8 @@ body{
     font-size: large;
 }
 .star {
-    align-self: center; /* چسباندن star به پایین */
-    margin-bottom: 10px; /* فاصله کوچک از پایین */
+    align-self: center;
+    margin-bottom: 10px;
 }
 .cardCustomer .star {
     display: flex;
@@ -371,43 +371,46 @@ body{
     margin-top: 1rem;
     margin-bottom: -3rem;
 }
-.formSection{
+.formSection {
     display: flex;
     justify-content: center;
-}
-.formBack{
+    position: relative; 
+  }
+  .formBack {
     background-color: #D6F7E7;
-    width: 80%;
+    width: 90%;
     border-radius: 15px;
     padding: 5rem;
     margin: 4rem 0rem;
-}
-.cardForm{
+    position: relative; 
+    z-index: 2; 
+  }
+  .cardForm {
     width: 100%;
     background-color: #ffffff;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     display: flex;
-}
-.cardForm img{
+  }
+  .cardForm img {
     height: 100%;
-}
-.form{
+  }
+  .form {
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     padding: 0 4rem;
-}
-.form p{
+  }
+  .form p {
     font-size: 1.5rem;
-}
-.input-container {
+  }
+  .input-container {
     position: relative;
     width: 100%;
     height: 15%;
-}
-svg {
+  }
+  svg {
     position: absolute;
     left: 10px;
     top: 50%;
@@ -415,23 +418,23 @@ svg {
     width: 20px;
     height: 20px;
     margin-left: 10px;
-}
-.email {
+  }
+  .email {
     border-radius: 10px;
     width: 100%;
     height: 100%;
-    padding-left: 55px; 
+    padding-left: 55px;
     font-size: 1rem;
     border: #8F9779 2px solid;
-}
-.email::placeholder {
+  }
+  .email::placeholder {
     color: #8F9779;
-}
-.buttonForm{
+  }
+  .buttonForm {
     display: flex;
     justify-content: center;
-}
-.buttonForm button{
+  }
+  .buttonForm button {
     border: none;
     background-color: #2BAE7A;
     padding: 15px 60px;
@@ -439,4 +442,19 @@ svg {
     color: white;
     font-weight: bold;
     font-size: 1.5rem;
-}
+  }
+  .backImageForm {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    display: flex;
+    margin-left: -6%;
+    margin-top: 5rem;
+    justify-content: start;
+    z-index: 1; 
+  }
+  .backImageForm img {
+    width: 100%;
+    object-fit: contain;
+  }
+  
