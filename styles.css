@@ -377,7 +377,7 @@ body{
     position: relative; 
   }
   .formBack {
-    background-color: #D6F7E7;
+    background-color: #d6f7e7b5;
     width: 90%;
     border-radius: 15px;
     padding: 5rem;
@@ -454,7 +454,7 @@ body{
     z-index: 1; 
   }
   .backImageForm img {
-    width: 100%;
+    width: 90%;
     object-fit: contain;
   }
   
