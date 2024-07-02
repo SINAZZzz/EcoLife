@@ -469,7 +469,7 @@ svg {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 18.5%;
+    width: 25%;
 }
 .sectionContacts p{
     font-size: larger;
@@ -484,7 +484,7 @@ svg {
 }
 .itemsContact img{
     margin-right: 1rem;
-    width: 10%;
+    width: 6%;
 }
 .social{
     display: flex;
@@ -515,4 +515,21 @@ svg {
 }
 .oneCopy{
     margin-bottom: 1rem;
+}
+.formSection {
+    position: relative;
+    z-index: 1;
+}
+.footer {
+    position: relative;
+    z-index: 1;
+}
+.world {
+    position: absolute;
+    transform: translate(280%, -65%);
+    z-index: 2;
+    pointer-events: none; 
+}
+.world img{
+    width: 90%;
 }
