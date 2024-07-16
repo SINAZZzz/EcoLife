@@ -6,7 +6,7 @@
 # EcoLife
 
 <b>
-    Html + Css + Js
+  Html + Css + Js
 </b>
 
 <h2> Created by </h2>
